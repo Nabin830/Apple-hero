@@ -157,18 +157,88 @@ color: rgb(0, 0, 0);}
 
 
 
-.dual{}
+.dual{
+    display: flex;
+}
 .dual .dualleft{
     background: url(./Images/wdc-24.jpeg);
+    width: 50%;
+    height: 580px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
 }
-.dual .dualleft p{}
-.dual .dualleft .dualbtn{}
-.dual .dualleft .dualbtn button.leftbtn{}
+.dual .dualleft p{
+    color: white;
+    margin-top: 430px;
+    font-size: 24px;
+    align-items: inherit;
+}
+.dual .dualleft .dualbtn{ }
+.dual .dualleft .dualbtn button.leftbtn{
+    /* border: 1px solid #0071e3; */
+    padding: 11px 30px;
+    border-radius: 38px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    /* background: transparent; */
+    background: #0571e2;
+    }
 
 .dual .dualright{
     background: url(./Images/vision-pro\ girl.jpeg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
 }
-.dual .dualright p{}
-.dual .dualright .dualbtn{}
-.dual .dualright .dualbtn button.leftbtn{}
-.dual .dualright .dualbtn button.rightbtn{}
+.dual .dualright p{margin-left: 237px;font-size: 21px;/* margin: 0px auto; */}
+.dual .dualright .dualbtn{
+    margin-left: 314px;
+    margin-top: 20px;
+    /* margin: 0px auto; */
+}
+.dual .dualright .dualbtn button.leftbtn{/* border: 1px solid #0071e3; */
+    padding: 11px 30px;
+    border-radius: 38px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    /* background: transparent; */
+    background: #0571e2;}
+.dual .dualright .dualbtn button.rightbtn{
+    border: 1px solid #0071e3;
+    padding: 9px 22px;
+    border-radius: 38px;
+    font-size: 15px;
+    color: #0071e3;
+    background: transparent;
+}
+
+.dualright{}
+.dualright .vpro{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 51px;
+  justify-content: center;
+  margin-top: 400px;
+}
+.dualright .vpro span.logo{
+    /* height: 20px; */
+    width: 20opx;
+}
+.dualright .vpro span.logo img{
+    height: 36px;
+}
+.dualright .vpro h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 39px;
+}
