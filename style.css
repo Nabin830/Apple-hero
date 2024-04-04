@@ -24,15 +24,12 @@
     gap: 36px;
     align-items: center;
 }
-.navbar .menus ul li{}
-.navbar .menus ul li .search{}
 .navbar .menus ul li .search img{
     height: 20px;
 }
 .navbar .menus ul li .store img{
     height: 20px;
 }
-.navbar .menus ul li .store {}
 .navbar .menus ul li a{
     text-decoration: none;
     font-size: 12px;
@@ -159,6 +156,8 @@ color: rgb(0, 0, 0);}
 
 .dual{
     display: flex;
+    gap: 20px;
+    margin-top: 15px;
 }
 .dual .dualleft{
     background: url(./Images/wdc-24.jpeg);
@@ -177,7 +176,6 @@ color: rgb(0, 0, 0);}
     font-size: 24px;
     align-items: inherit;
 }
-.dual .dualleft .dualbtn{ }
 .dual .dualleft .dualbtn button.leftbtn{
     /* border: 1px solid #0071e3; */
     padding: 11px 30px;
@@ -219,7 +217,6 @@ color: rgb(0, 0, 0);}
     background: transparent;
 }
 
-.dualright{}
 .dualright .vpro{
   display: flex;
   width: 100%;
@@ -242,3 +239,223 @@ color: rgb(0, 0, 0);}
     font-weight: 500;
     font-size: 39px;
 }
+.dual1{
+    display: flex;
+    gap: 17px;
+    margin-top: 15px;
+}
+.dual1 .watch{
+    height: 580px;
+    background:url(/Images/apple\ watch.jpeg);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.dual1 .watch .heading{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.dual1 .watch .heading span.logo img{
+    width: 40px;
+}
+.dual1 .watch .heading h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.dual1 .watch p{
+    color: red;
+    text-transform: uppercase;
+    margin-left: 22px;
+}
+.dual1 .watch h3{
+    color: white;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-top: 10p;
+    margin-top: 10;
+    margin-top: 1;
+    margin: 15px 0px;
+}
+.dual1 .watch .dualbtn button.leftbtn{ padding: 11px 30px;
+    border-radius: 38px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    /* background: transparent; */
+    background: #0571e2;}
+.dual1 .watch .dualbtn button.rightbtn{    border: 1px solid #0071e3;
+    padding: 9px 22px;
+    border-radius: 38px;
+    font-size: 15px;
+    color: #0071e3;
+    background: transparent;}
+
+
+
+    .dual1 .ipad{
+        height: 580px;
+        background:url(/Images/ipad.jpeg);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+    }
+    .dual1 .ipad .heading{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .dual1 .ipad .heading span.logo img{
+        width: 40px;
+    }
+    .dual1 .ipad .heading h1{
+        color: black;
+        font-weight: 500;
+        font-size: 40px;
+    }
+   
+    .dual1 .ipad h3{
+        color: black;
+        font-weight: 300;
+        font-size: 23px;
+        margin-top: 10px;
+       
+        margin: 8px 0px;
+    }
+    .dual1 .ipad .dualbtn button.leftbtn{ padding: 11px 30px;
+        border-radius: 38px;
+        font-size: 15px;
+        color: #ffffff;
+        border: none;
+        /* background: transparent; */
+        background: #0571e2;}
+    .dual1 .ipad .dualbtn button.rightbtn{    border: 1px solid #0071e3;
+        padding: 9px 22px;
+        border-radius: 38px;
+        font-size: 15px;
+        color: #0071e3;
+        background: transparent;}
+
+
+
+
+
+
+
+
+
+
+
+
+        .dual1 .card{
+            height: 580px;
+            background:url(/Images/card.jpeg);
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-position: center;
+            background-size: cover;
+            gap: 5px;
+        }
+        .dual1 .card .heading{
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .dual1 .card .heading span.logo img{
+            width: 40px;
+        }
+        .dual1 .card .heading h1{
+            color: black;
+            font-weight: 500;
+            font-size: 40px;
+        }
+       
+        .dual1 .card h3{
+            color: black;
+            font-weight: 300;
+            font-size: 23px;
+            margin-top: 10px;
+            margin-top: 10px;
+            margin-top: 10p;
+            margin-top: 10;
+            margin-top: 1;
+            margin: 8px 0px;
+            width: 37%;
+            text-align: center;
+        }
+        .dual1 .card .dualbtn button.leftbtn{ padding: 11px 30px;
+            border-radius: 38px;
+            font-size: 15px;
+            color: #ffffff;
+            border: none;
+            /* background: transparent; */
+            background: #0571e2;}
+        .dual1 .card .dualbtn button.rightbtn{    border: 1px solid #0071e3;
+            padding: 9px 22px;
+            border-radius: 38px;
+            font-size: 15px;
+            color: #0071e3;
+            background: transparent;}
+
+
+
+
+
+
+            .dual1 .phone{
+                height: 580px;
+                background:url(/Images/hands.jpeg);
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-position: center;
+                background-size: cover;
+                gap: 4px;
+            }
+            .dual1 .phone .heading{
+                display: flex;
+                align-items: center;
+                margin-top: 50px;
+            }
+            .dual1 .phone .heading span.logo img{
+                width: 40px;
+            }
+            .dual1 .phone .heading h1{
+                color: black;
+                font-weight: 500;
+                font-size: 40px;
+            }
+           
+            .dual1 .phone h3{
+                color: black;
+                font-weight: 300;
+                font-size: 23px;
+                margin-top: 10px;
+               
+                margin: 8px 0px;
+                width: 41%;
+                text-align: center;
+            }
+            .dual1 .phone .dualbtn button.leftbtn{ padding: 11px 30px;
+                border-radius: 38px;
+                font-size: 15px;
+                color: #ffffff;
+                border: none;
+                /* background: transparent; */
+                background: #0571e2;}
+            .dual1 .phone .dualbtn button.rightbtn{    border: 1px solid #0071e3;
+                padding: 9px 22px;
+                border-radius: 38px;
+                font-size: 15px;
+                color: #0071e3;
+                background: transparent;}
